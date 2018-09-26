@@ -4,6 +4,7 @@
   "description": "A secure a Node.js (Express) API that is accessed by a single page application.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/salfedev/express_auth_api#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
   }
 }
